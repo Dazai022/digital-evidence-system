@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+!.env.*.example
+backend/evidence.db
+backend/storage/originals/*
+backend/storage/forensic_copies/*
+backend/storage/reports/*
+!backend/storage/originals/.gitkeep
+!backend/storage/forensic_copies/.gitkeep
+!backend/storage/reports/.gitkeep
+# Node
+node_modules/
+.next/
+out/
+frontend/.env.local
